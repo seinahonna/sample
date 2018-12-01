@@ -18,7 +18,7 @@ a {
 }
 
 .container {
-  width: 1330px;
+  width: 1170px;
   height: 450px;
   padding: 0 15px;
   margin: 0 auto;
@@ -40,7 +40,7 @@ a {
   right: 0;
   bottom: 0;
   left: 0;
-  width: 13300px;
+  width: 100%;
 }
 
 .top-wrapper h1 {
@@ -92,24 +92,7 @@ header {
 
 .header-left {
   float: left;
-}
-
-.header-right {
-  float: right;
-  background-color: rgba(255, 255, 255, 0.3);
-  transition: all 0.5s;
-}
-
-.header-right:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.header-right a {
-  font-family: Penna,Mamelon;
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
+  width: 100%;
 }
 
 .work-wrapper {
